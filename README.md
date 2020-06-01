@@ -5,3 +5,5 @@ Xhirp
 Jonscores
 Wolfie49
 Kyrion
+***
+Testing the bot
