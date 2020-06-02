@@ -4,7 +4,7 @@
 // energy rules
 //powered = false;
 //source_id = 0;
-if (source) {powered = true; source_id = id;}
+/*if (source) {powered = true; source_id = id;}
 
 var _c = 0, _b = true;
 if (place_meeting(x+global.grid_size,y,oBlock)) {
@@ -67,7 +67,7 @@ if (_b) {powered = false}
 if (!source) {
 	var _id = source_id;
 	//show_debug_message("Do Loop check...")
-	for (var _i = 0; _i <= instance_number(global.block_type_in_question); _i++) {
+	for (var _i = 0; _i <= instance_number(oBlock); _i++) {
 		if (powered && source_id != 0) {
 			_id = _id.source_id;
 			if (_id = id) {
@@ -80,41 +80,33 @@ if (!source) {
 	}
 }
 
-if (source) {powered = true;}
+if (source) {powered = true;}*/
 
 
 if (push_up) {
 	
-	if (blockPushUp(grid_coords[0],grid_coords[1], [])) {
-		alarm[1] = 1;
-	}
+	grid_coords[1] -= 1;
 	
 	push_up = false;
 }
 
 if (push_down) {
 	
-	if (blockPushDown(grid_coords[0],grid_coords[1], [])) {
-		alarm[2] = 1;
-	}
+	grid_coords[1] += 1;
 	
 	push_down = false;
 }
 
 if (push_left) {
 	
-	if (blockPushLeft(grid_coords[0],grid_coords[1], [])) {
-		alarm[3] = 1;
-	}
+	grid_coords[0] -= 1;
 	
 	push_left = false;
 }
 
 if (push_right) {
 	
-	if (blockPushRight(grid_coords[0],grid_coords[1], [])) {
-		alarm[4] = 1;
-	}
+	grid_coords[1] += 1;
 	
 	push_right = false;
 }
