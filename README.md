@@ -1,8 +1,13 @@
 # Open Puzzle Game!
 
 In active development by:
-Xhirp
-Jonscores
-Wolfie49
-Kyrion
+
+Xhirp (Squalm) - Programming
+
+Jonscores - Sound
+
+Wolfie49 - Sound and Art
+
+Kyrion - Design
+
 ***
