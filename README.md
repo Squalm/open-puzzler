@@ -9,5 +9,3 @@ Jonscores - Sound
 Wolfie49 - Sound and Art
 
 Kyrion - Design
-
-***
